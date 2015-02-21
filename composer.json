@@ -1,9 +1,7 @@
 {
     "name": "amagumolabs/mobile_detect",
     "description": "Detect Mobile",
-    "keywords": [
-        "mobile"
-    ],
+    "keywords": ["mobile"],
     "homepage": "",
     "license": "MIT",
     "authors": [
@@ -17,8 +15,17 @@
         "psr-4": { "Amagumolabs\\Mobile_Detect\\": "src/" },
         "files": ["src/Mobile_Detect.php"]
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/amagumolabs/mobile_detect"
+        }
+    ],
     "require": {
           "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
     },
     "minimum-stability": "dev"
 }
