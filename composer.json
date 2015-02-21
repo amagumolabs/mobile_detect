@@ -17,11 +17,14 @@
         "psr-4": { "Amagumolabs\\Mobile_Detect\\": "src/" },
         "files": ["src/Mobile_Detect.php"]
     },
+    "require": {
+          "php": ">=5.4.0"
+    }
 	"license": "MIT",
-	  "minimum-stability": "master",
+	  "minimum-stability": "dev",
 	  "extra": {
 	    "branch-alias": {
-	      "dev-master": "master"
+	      "dev-master": "0.3-dev"
 	    }
 	  }
 }
