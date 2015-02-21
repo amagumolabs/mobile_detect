@@ -1,0 +1,21 @@
+{
+    "name": "amagumolabs/mobile_detect",
+    "version":"2.1",
+    "description": "Detect Mobile",
+    "keywords": [
+        "mobile"
+    ],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serban Ghita,Nick Ilyin",
+            "email": "serbanghita@gmail.com,nick.ilyin@gmail.com",
+            "homepage": "http://mobiledetect.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Amagumolabs\\Mobile_Detect\\": "src/" },
+        "files": ["src/Mobile_Detect.php"]
+    }
+}
