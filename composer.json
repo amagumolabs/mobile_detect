@@ -16,5 +16,12 @@
     "autoload": {
         "psr-4": { "Amagumolabs\\Mobile_Detect\\": "src/" },
         "files": ["src/Mobile_Detect.php"]
-    }
+    },
+	"license": "MIT",
+	  "minimum-stability": "master",
+	  "extra": {
+	    "branch-alias": {
+	      "dev-master": "master"
+	    }
+	  }
 }
