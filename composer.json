@@ -1,31 +1,28 @@
 {
     "name": "amagumolabs/mobile_detect",
-    "description": "Detect Mobile",
-    "keywords": ["mobile"],
-    "homepage": "",
+    "type": "library",
+    "description": "Mobile Detect",
+    "keywords": ["Mobile Detect", "laravel", "php"],
+    "homepage": "https://github.com/amagumolabs/mobile_detect",
     "license": "MIT",
     "authors": [
         {
-            "name": "Serban Ghita",
-            "email": "serbanghita@gmail.com",
-            "homepage": "http://mobiledetect.net"
-        }
-    ],
-    "autoload": {
-        "psr-4": { "Amagumolabs\\Mobile_Detect\\": "src/" },
-        "files": ["src/Mobile_Detect.php"]
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/amagumolabs/mobile_detect"
+            "name": "Artdarek",
+            "email": "artdarek@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
-          "php": ">=5.4.0"
+        "php": ">=5.3"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.1"
-    },
-    "minimum-stability": "dev"
+        "illuminate/support": "~4"
+    },    
+    "require-all": true,
+    "autoload": {    
+        "psr-0": {
+            "Amagumolabs\\Mobile_Detect": "src/"
+        }
+    },    
+    "minimum-stability": "dev"    
 }
