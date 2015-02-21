@@ -20,11 +20,5 @@
     "require": {
           "php": ">=5.4.0"
     }
-	"license": "MIT",
-	  "minimum-stability": "dev",
-	  "extra": {
-	    "branch-alias": {
-	      "dev-master": "0.3-dev"
-	    }
-	  }
+	"minimum-stability": "RC"
 }
