@@ -7,18 +7,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Artdarek",
-            "email": "artdarek@gmail.com",
+            "name": "Serban Ghita",
+            "email": "serbanghita@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": ">=5.3"
     },
-    "require-dev": {
-        "illuminate/support": "~4"
-    },    
-    "require-all": true,
     "autoload": {    
         "files": ["src/Mobile_Detect.php"]
     },    
