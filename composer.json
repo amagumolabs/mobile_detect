@@ -12,9 +12,6 @@
             "role": "Developer"
         }
     ],
-    "require": {
-        "php": ">=5.3"
-    },
     "autoload": {    
         "files": ["src/Mobile_Detect.php"]
     },    
