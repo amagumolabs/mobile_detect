@@ -1,6 +1,7 @@
 {
     "name": "amagumolabs/mobile_detect",
     "type": "library",
+    "version":"1.0",
     "description": "Mobile Detect",
     "keywords": ["Mobile Detect", "laravel", "php"],
     "homepage": "https://github.com/amagumolabs/mobile_detect",
